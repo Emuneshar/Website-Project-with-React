@@ -3,7 +3,10 @@ import Card from "../components/Card";
 import "./App.css";
 
 function App() {
-  return <Card></Card>;
+  return;
+  <div>
+    <Card></Card>;
+  </div>;
 }
 
 export default App;
