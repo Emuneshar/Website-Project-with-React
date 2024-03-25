@@ -1,7 +1,10 @@
 import React from "react";
 
-function Grid(){
-    return (
+
+const Grid = () => {
+    return(
         
     )
 }
+
+export defualt Grid;
