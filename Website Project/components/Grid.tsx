@@ -1,14 +1,21 @@
 import React from "react";
 
-const Grid = () => {
+interface GridProps {
+  cards: { id: number; title: string; content: string; buttonText: string }[];
+}
+
+const Grid: React.FC<GridProps> = ({ cards }) => {
   return (
-    <div className="container text-center">
-      <div className="row row-cols-4">
-        <div className="col">Column</div>
-        <div className="col">Column</div>
-        <div className="col">Column</div>
-        <div className="col">Column</div>
-      </div>
+    <div className="grid">
+      {cards.map((card) => (
+        <div key={card.id} className="card">
+          <h5>{card.title}</h5>
+          <p>{card.content}</p>
+          <a href="#" className="btn btn-primary">
+            {card.buttonText}
+          </a>
+        </div>
+      ))}
     </div>
   );
 };
