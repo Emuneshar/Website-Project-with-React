@@ -3,12 +3,13 @@ import React from "react";
 interface CardProps {
   title: string;
   content: string;
+  buttonText: string;
 }
 
 const cardStyle = {
   width: "18rem",
 };
-const Card: React.FC<CardProps> = ({ title, content }) => {
+const Card: React.FC<CardProps> = ({ title, content, buttonText }) => {
   return (
     <>
       <div className="card" style={cardStyle}>
@@ -17,7 +18,7 @@ const Card: React.FC<CardProps> = ({ title, content }) => {
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{content}</p>
           <a href="#" className="btn btn-primary">
-            Go somewhere
+            {buttonText}
           </a>
         </div>
       </div>
