@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import Grid from "../components/Grid";
 
 function App() {
   return (
