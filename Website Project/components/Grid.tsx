@@ -7,4 +7,4 @@ const Grid = () => {
     )
 }
 
-export defualt Grid;
+export default Grid;
