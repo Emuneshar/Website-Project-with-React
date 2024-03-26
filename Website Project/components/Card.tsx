@@ -10,7 +10,12 @@ interface CardProps {
 const cardStyle = {
   width: "18rem",
 };
-const Card: React.FC<CardProps> = ({ title, content, buttonText }) => {
+const Card: React.FC<CardProps> = ({
+  title,
+  content,
+  buttonText,
+  onButtonClick,
+}) => {
   return (
     <>
       <div className="card" style={cardStyle}>
@@ -18,9 +23,9 @@ const Card: React.FC<CardProps> = ({ title, content, buttonText }) => {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{content}</p>
-          <a href="#" className="btn btn-primary">
-            {buttonText}
-          </a>
+          <button className="btn btn-primary" onClick={onButtonClick}>
+            Button Here
+          </button>
         </div>
       </div>
     </>
