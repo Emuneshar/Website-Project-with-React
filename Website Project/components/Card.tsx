@@ -1,26 +1,35 @@
 import React from "react";
 
+interface CardProps {
+  title: string;
+  content: string;
+  buttonText: string;
+  onButtonClick: () => void;
+}
+
 const cardStyle = {
   width: "18rem",
 };
-function Card() {
+const Card: React.FC<CardProps> = ({
+  title,
+  content,
+  buttonText,
+  onButtonClick,
+}) => {
   return (
     <>
       <div className="card" style={cardStyle}>
         <img src="..." className="card-img-top" alt="..."></img>
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" className="btn btn-primary">
-            Go somewhere
-          </a>
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text">{content}</p>
+          <button className="btn btn-primary" onClick={onButtonClick}>
+            Button Here
+          </button>
         </div>
       </div>
     </>
   );
-}
+};
 
 export default Card;
