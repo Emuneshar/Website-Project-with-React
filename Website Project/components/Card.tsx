@@ -3,6 +3,8 @@ import React from "react";
 interface CardProps {
   title: string;
   content: string;
+  buttonText: string;
+  onButtonClick: () => void;
 }
 
 const cardStyle = {
