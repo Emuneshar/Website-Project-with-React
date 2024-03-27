@@ -28,6 +28,26 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
+      <Grid>
+        <Card
+          title="Card 1"
+          content="Card 1 content"
+          buttonText="Click Me"
+          onButtonClick={() => console.log("Button Clicked!")}
+        />
+        <Card
+          title="Card 1"
+          content="Card 1 content"
+          buttonText="Click Me"
+          onButtonClick={() => console.log("Button Clicked!")}
+        />
+        <Card
+          title="Card 1"
+          content="Card 1 content"
+          buttonText="Click Me"
+          onButtonClick={() => console.log("Button Clicked!")}
+        />
+      </Grid>
     </>
   );
 }
