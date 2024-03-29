@@ -1,52 +1,65 @@
-import React, { useState } from "react";
+import React from "react";
 
-const NavBar = () => {
-  const [showDropdown, setShowDropdown] = useState(false);
-
-  const toggleDropdown = () => {
-    setShowDropdown(!showDropdown);
-  };
-
+const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        <div className="navbar-logo">
-          <a href="/">Logo</a>
-        </div>
-        <ul className="navbar-menu">
-          <li className="navbar-item">
-            <a href="/">Home</a>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a className="navbar-brand" href="/">
+        Logo
+      </a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item active">
+            <a className="nav-link" href="/">
+              Home <span className="sr-only">(current)</span>
+            </a>
           </li>
-          <li className="navbar-item">
-            <a href="/about">About</a>
+          <li className="nav-item">
+            <a className="nav-link" href="/about">
+              About
+            </a>
           </li>
-          <li
-            className="navbar-item"
-            onMouseEnter={toggleDropdown}
-            onMouseLeave={toggleDropdown}
-          >
-            <a href="/services">Services</a>
-            {showDropdown && (
-              <ul className="dropdown-menu">
-                <li>
-                  <a href="/services/design">Design</a>
-                </li>
-                <li>
-                  <a href="/services/development">Development</a>
-                </li>
-                <li>
-                  <a href="/services/marketing">Marketing</a>
-                </li>
-              </ul>
-            )}
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="/"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a className="dropdown-item" href="/services/design">
+                Design
+              </a>
+              <a className="dropdown-item" href="/services/development">
+                Development
+              </a>
+              <a className="dropdown-item" href="/services/marketing">
+                Marketing
+              </a>
+            </div>
           </li>
-          <li className="navbar-item">
-            <a href="/contact">Contact</a>
+          <li className="nav-item">
+            <a className="nav-link" href="/contact">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
     </nav>
   );
 };
-
-export default NavBar;
