@@ -5,7 +5,7 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Navbar
+          Google
         </a>
         <button
           className="navbar-toggler"
@@ -43,7 +43,7 @@ function NavBar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown link
+                Services Offered
               </a>
               <ul className="dropdown-menu">
                 <li>
