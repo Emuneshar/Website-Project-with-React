@@ -26,31 +26,37 @@ const Carousel = () => {
         ></button>
       </div>
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        <div className="carousel-item active d-flex justify-content-center">
           <img
             src="../Images/temp_image_one.jpg"
-            className="d-block w-50"
+            className="d-block"
             alt="..."
-            style={{ width: `${50}px`, height: "auto" }}
-          ></img>
+            style={{ width: "400px", height: "300px" }}
+          />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item d-flex justify-content-center">
           <img
             src="../Images/FoodGroupsLP_804x482.jpg"
-            className="d-block w-50"
+            className="d-block"
             alt="..."
-          ></img>
+            style={{ width: "400px", height: "300px" }}
+          />
           <div className="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
-        <div className="carousel-item">
-          <img src="..." className="d-block w-50" alt="..."></img>
+        <div className="carousel-item d-flex justify-content-center">
+          <img
+            src="../Images/istockphoto-1457979959-612x612.jpg"
+            className="d-block"
+            alt="..."
+            style={{ width: "400px", height: "300px" }}
+          />
           <div className="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>
