@@ -27,7 +27,11 @@ const Carousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="./" className="d-block w-100" alt="..."></img>
+          <img
+            src="../Images/temp_image_one.jpg"
+            className="d-block w-100"
+            alt="..."
+          ></img>
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
