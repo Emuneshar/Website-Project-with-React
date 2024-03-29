@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../components/Card";
 import Grid from "../components/Grid";
 import NavBar from "../components/NavBar";
+import Carousel from "../components/Carousel";
 
 function App() {
   const CardData = [
@@ -28,6 +29,7 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
+      <Carousel></Carousel>
       <Grid>
         <Card
           title="Card 1"
