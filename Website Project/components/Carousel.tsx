@@ -29,9 +29,9 @@ const Carousel = () => {
         <div className="carousel-item active">
           <img
             src="../Images/temp_image_one.jpg"
-            className="d-block w-100"
+            className="d-block w-50"
             alt="..."
-            style={{ width: `${100}px`, height: "auto" }}
+            style={{ width: `${50}px`, height: "auto" }}
           ></img>
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
@@ -39,14 +39,18 @@ const Carousel = () => {
           </div>
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..."></img>
+          <img
+            src="../Images/FoodGroupsLP_804x482.jpg"
+            className="d-block w-50"
+            alt="..."
+          ></img>
           <div className="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..."></img>
+          <img src="..." className="d-block w-50" alt="..."></img>
           <div className="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>

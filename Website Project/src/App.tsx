@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import Grid from "../components/Grid";
 import NavBar from "../components/NavBar";
 import Carousel from "../components/Carousel";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
   const CardData = [
