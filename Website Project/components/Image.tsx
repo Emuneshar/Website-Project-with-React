@@ -12,7 +12,7 @@ const ImageComponent: React.FC = () => {
       <img
         src="../Images/temp_image_one.jpg"
         alt="Your Image"
-        style={{ width: "${width}px", height: "auto" }}
+        style={{ width: `${width}px`, height: "auto" }}
       />
       <button onClick={handleResize}>Resize</button>
     </div>
