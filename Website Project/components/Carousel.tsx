@@ -31,6 +31,7 @@ const Carousel = () => {
             src="../Images/temp_image_one.jpg"
             className="d-block w-100"
             alt="..."
+            style={{ width: `${width}px`, height: "auto" }}
           ></img>
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
