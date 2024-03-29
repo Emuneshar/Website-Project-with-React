@@ -1,6 +1,12 @@
 import React from "react";
 
 const Carousel = () => {
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+
+  const handleSlideChange = (index: number) => {
+    setActiveIndex(index);
+  };
+
   return (
     <div id="carouselExampleCaptions" className="carousel slide">
       <div className="carousel-indicators">
