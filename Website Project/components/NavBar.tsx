@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
+  const [isDropDownOpen, setIsDropDownOpen] = useState<boolean>(false);
+
+  const toggleDropdown = () => {
+    setIsDropDownOpen(!isDropDownOpen);
+  };
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="/">
