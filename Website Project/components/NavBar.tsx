@@ -35,21 +35,21 @@ const Navbar: React.FC = () => {
               Services
             </span>
             <div className={`dropdown-menu ${isDropDownOpen ? "show" : ""}`}>
-              <a className="dropdown-item" href="/services/design">
+              <Link className="dropdown-item" to="/services/design">
                 Design
-              </a>
-              <a className="dropdown-item" href="/services/development">
+              </Link>
+              <Link className="dropdown-item" to="/services/development">
                 Development
-              </a>
-              <a className="dropdown-item" href="/services/marketing">
+              </Link>
+              <Link className="dropdown-item" to="/services/marketing">
                 Marketing
-              </a>
+              </Link>
             </div>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">
+            <Link className="nav-link" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
