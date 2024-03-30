@@ -12,23 +12,23 @@ function App() {
       <Carousel></Carousel>
       <Grid>
         <Card
-          title="Card 1"
+          title="Package 1"
           src="../Images/image1.jpg"
-          content="Card 1 content"
+          content="Package 1 info"
           buttonText="Click Me"
           onButtonClick={() => console.log("Button Clicked!")}
         />
         <Card
-          title="Card 1"
+          title="Package 2"
           src="../Images/image2.jpg"
-          content="Card 1 content"
+          content="Package 2 info"
           buttonText="Click Me"
           onButtonClick={() => console.log("Button Clicked!")}
         />
         <Card
-          title="Card 1"
+          title="Package 3"
           src="../Images/image3.jpg"
-          content="Card 1 content"
+          content="Package 3 info"
           buttonText="Click Me"
           onButtonClick={() => console.log("Button Clicked!")}
         />
