@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [isDropDownOpen, setIsDropDownOpen] = useState<boolean>(false);
@@ -9,9 +10,9 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" href="/">
+      <Link className="navbar-brand" to="/">
         Ultrasound Clinic
-      </a>
+      </Link>
       <button className="navbar-toggler" type="button" onClick={toggleDropdown}>
         <span className="navbar-toggler-icon"></span>
       </button>
