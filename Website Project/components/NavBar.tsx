@@ -21,24 +21,19 @@ const Navbar: React.FC = () => {
       >
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" to="/">
               Home <span className="sr-only"></span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <Link className="nav-link" to="/about">
               About
-            </a>
+            </Link>
           </li>
           <li className={`nav-item dropdown ${isDropDownOpen ? "show" : ""}`}>
-            <a
-              className="nav-link dropdown-toggle"
-              href="/"
-              onClick={toggleDropdown}
-              id="navbarDropdown"
-            >
+            <span className="nav-link dropdown-toggle" onClick={toggleDropdown}>
               Services
-            </a>
+            </span>
             <div className={`dropdown-menu ${isDropDownOpen ? "show" : ""}`}>
               <a className="dropdown-item" href="/services/design">
                 Design
