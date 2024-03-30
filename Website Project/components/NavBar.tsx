@@ -15,7 +15,9 @@ const Navbar: React.FC = () => {
       <button className="navbar-toggler" type="button" onClick={toggleDropdown}>
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
+      <div
+        className={`collapse navbar-collapse ${isDropDownOpen ? "show" : ""}`}
+      >
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
             <a className="nav-link" href="/">
@@ -27,19 +29,16 @@ const Navbar: React.FC = () => {
               About
             </a>
           </li>
-          <li className="nav-item dropdown">
+          <li className={`nav-item dropdown ${isDropDownOpen ? "show" : ""}`}>
             <a
               className="nav-link dropdown-toggle"
               href="/"
+              onClick={toggleDropdown}
               id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
             >
               Services
             </a>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div className={`dropdown-menu ${isDropDownOpen ? "show" : ""}`}>
               <a className="dropdown-item" href="/services/design">
                 Design
               </a>
