@@ -10,18 +10,21 @@ function App() {
     {
       id: 1,
       title: "Stuff",
+      src: "../Images/image1.jpg",
       content: "Thing thing thing",
       buttontext: "Book Now",
     },
     {
       id: 1,
       title: "Stuff",
+      src: "../Images/image2.jpg",
       content: "Thing thing thing",
       buttontext: "Book Now",
     },
     {
       id: 1,
       title: "Stuff",
+      src: "../Images/image3.jpg",
       content: "Thing thing thing",
       buttontext: "Book Now",
     },
