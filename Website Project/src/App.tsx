@@ -6,30 +6,6 @@ import Carousel from "../components/Carousel";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
-  const CardData = [
-    {
-      id: 1,
-      title: "Stuff",
-      src: "../Images/image1.jpg",
-      content: "Thing thing thing",
-      buttontext: "Book Now",
-    },
-    {
-      id: 1,
-      title: "Stuff",
-      src: "../Images/image2.jpg",
-      content: "Thing thing thing",
-      buttontext: "Book Now",
-    },
-    {
-      id: 1,
-      title: "Stuff",
-      src: "../Images/image3.jpg",
-      content: "Thing thing thing",
-      buttontext: "Book Now",
-    },
-  ];
-
   return (
     <>
       <NavBar></NavBar>
