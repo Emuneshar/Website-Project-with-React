@@ -37,18 +37,21 @@ function App() {
       <Grid>
         <Card
           title="Card 1"
+          src="../Images/image1.jpg"
           content="Card 1 content"
           buttonText="Click Me"
           onButtonClick={() => console.log("Button Clicked!")}
         />
         <Card
           title="Card 1"
+          src="../Images/image2.jpg"
           content="Card 1 content"
           buttonText="Click Me"
           onButtonClick={() => console.log("Button Clicked!")}
         />
         <Card
           title="Card 1"
+          src="../Images/image3.jpg"
           content="Card 1 content"
           buttonText="Click Me"
           onButtonClick={() => console.log("Button Clicked!")}
