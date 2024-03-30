@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Card from "../components/Card";
 import Grid from "../components/Grid";
 import NavBar from "../components/NavBar";
@@ -7,8 +8,18 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
   return (
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
+  );
+}
+
+function HomePage() {
+  return (
     <>
-      <NavBar></NavBar>
       <Carousel></Carousel>
       <Grid>
         <Card
