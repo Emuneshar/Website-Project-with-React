@@ -40,7 +40,7 @@ const Carousel = () => {
           </div>
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src="../Images/image1.jpg" className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
