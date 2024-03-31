@@ -1,15 +1,25 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/NavBar.css";
+
 const Navbar: React.FC = () => {
   const [isDropDownOpen, setIsDropDownOpen] = useState<boolean>(false);
+  const [isNavCollapsed, setIsNavCollapsed] = useState<boolean>(true);
 
   const toggleDropdown = () => {
     setIsDropDownOpen(!isDropDownOpen);
   };
 
+  const handleNavCollapse = () => {
+    setIsNavCollapsed(!isNavCollapsed);
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-white bg-light border-bottom-gray">
+    <nav
+      className={`navbar navbar-expand-lg navbar-dark bg-dark border-bottom-gray ${
+        isNavCollapsed ? "" : "navbar-fullscreen"
+      }`}
+    >
       <div className="container">
         <Link className="navbar-brand" to="/">
           Ultrasound Clinic
@@ -17,12 +27,12 @@ const Navbar: React.FC = () => {
         <button
           className="navbar-toggler"
           type="button"
-          onClick={toggleDropdown}
+          onClick={() => handleNavCollapse()}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className={`collapse navbar-collapse ${isDropDownOpen ? "show" : ""}`}
+          className={`collapse navbar-collapse ${isNavCollapsed ? "" : "show"}`}
         >
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
