@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import "../css/NavBar.css";
 const Navbar: React.FC = () => {
   const [isDropDownOpen, setIsDropDownOpen] = useState<boolean>(false);
 
