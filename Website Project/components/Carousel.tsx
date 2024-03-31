@@ -64,7 +64,7 @@ const Carousel = () => {
         </div>
       </div>
       <button
-        className="carousel-control-prev"
+        className="carousel-control-prev text-muted"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev"
@@ -73,7 +73,7 @@ const Carousel = () => {
         <span className="visually-hidden">Previous</span>
       </button>
       <button
-        className="carousel-control-next"
+        className="carousel-control-next text-muted"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
