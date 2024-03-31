@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-dark bg-dark border-bottom-gray ${
+      className={`navbar navbar-expand-lg navbar-light bg-light border-bottom-gray ${
         isNavCollapsed ? "" : "navbar-fullscreen"
       }`}
     >
