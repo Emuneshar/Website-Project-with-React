@@ -20,7 +20,9 @@ function App() {
 function HomePage() {
   return (
     <>
-      <Carousel></Carousel>
+      <div style={{ margin: "20px 0" }}>
+        <Carousel></Carousel>
+      </div>
       <div style={{ margin: "20px 0" }}>
         <Grid>
           <Card
