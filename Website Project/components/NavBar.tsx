@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom-gray">
+    <nav className="navbar navbar-expand-lg navbar-white bg-light border-bottom-gray">
       <Link className="navbar-brand" to="/">
         Ultrasound Clinic
       </Link>

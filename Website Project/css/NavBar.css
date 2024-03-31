@@ -1,9 +1,7 @@
 .navbar{
     height: 180px;
-    border-bottom: 2px solic rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
-.navbar.border-bottom-gray {
-    border-bottom: 2px solid #ccc; /* Adjust border color and thickness as needed */
-  }
+
   
