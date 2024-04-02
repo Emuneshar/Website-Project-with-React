@@ -1,11 +1,14 @@
 import React from "react";
+import SmallGrid from "../components/SmallGrid";
 import Carousel from "../components/Carousel";
 import Grid from "../components/Grid";
 import Card from "../components/Card";
+import "../css/HomePage.css";
 
 function HomePage() {
   return (
     <>
+      <SmallGrid />
       <div style={{ margin: "20px 0" }}>
         <Carousel></Carousel>
       </div>
