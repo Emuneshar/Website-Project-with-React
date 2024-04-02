@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Card from "../components/Card";
 import Grid from "../components/Grid";
 import NavBar from "../components/NavBar";
+import HomePage from "../components/HomePage";
 import Carousel from "../components/Carousel";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../css/App.css";
@@ -12,7 +13,7 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="../components/HomePage" element={<HomePage />} />
       </Routes>
     </Router>
   );
