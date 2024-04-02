@@ -7,7 +7,7 @@ function SmallGrid() {
         <img src="../Images/Image1.jpg" />
       </div>
       <div className="col-8" style={{ color: "black" }}>
-        Your Text Here
+        Your text here
       </div>
     </div>
   );
