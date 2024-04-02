@@ -13,7 +13,7 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="../components/HomePage" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
       </Routes>
     </Router>
   );
