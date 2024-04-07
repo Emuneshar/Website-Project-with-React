@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/SmallGrid.css";
-function SmallGrid() {
+const SmallGrid: React.FC = () => {
   return (
     <div className="row">
       <div className="col-4">
@@ -11,6 +11,6 @@ function SmallGrid() {
       </div>
     </div>
   );
-}
+};
 
 export default SmallGrid;
