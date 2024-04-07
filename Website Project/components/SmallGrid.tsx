@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 const SmallGrid: React.FC = () => {
   return (
     <div className="row">
-      <div className="col-4">
+      <div className="col-6">
         <img src="../Images/Image1.jpg" alt="Image 1" />
       </div>
       <div className="col-4">
