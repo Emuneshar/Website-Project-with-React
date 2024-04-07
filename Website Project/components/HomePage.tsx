@@ -5,7 +5,7 @@ import Grid from "../components/Grid";
 import Card from "../components/Card";
 import "../css/HomePage.css";
 
-function HomePage() {
+const HomePage: React.FC = () => {
   return (
     <>
       <SmallGrid />
@@ -39,6 +39,6 @@ function HomePage() {
       </div>
     </>
   );
-}
+};
 
 export default HomePage;
