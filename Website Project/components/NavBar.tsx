@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
     >
       <div className="container">
         <Link className="navbar-brand" to="/">
-          Ultrasound Clinic
+          Company Name
         </Link>
         <button
           className="navbar-toggler"
@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
         <div
           className={`collapse navbar-collapse ${isNavCollapsed ? "" : "show"}`}
         >
-          <ul className="navbar-nav mr-auto">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <Link className="nav-link" to="/">
                 Home <span className="sr-only"></span>
