@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/NavBar.css";
+import { Tiktok } from "react-bootstrap-icons";
 
 const Navbar: React.FC = () => {
   const [isDropDownOpen, setIsDropDownOpen] = useState<boolean>(false);
@@ -68,6 +69,13 @@ const Navbar: React.FC = () => {
               <Link className="nav-link" to="/contact">
                 Contact
               </Link>
+            </li>
+          </ul>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a href="#" className="nav-link">
+                <Tiktok size={24} color="black" /> {/* Use TikTok icon here */}
+              </a>
             </li>
           </ul>
         </div>
