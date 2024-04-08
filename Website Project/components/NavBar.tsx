@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a href="#" className="nav-link">
-                <Tiktok size={24} color="black" /> {/* Use TikTok icon here */}
+                <Tiktok size={24} color="black" />
               </a>
             </li>
           </ul>
