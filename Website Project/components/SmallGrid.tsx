@@ -8,7 +8,7 @@ const SmallGrid: React.FC = () => {
       <div className="col-6">
         <img src="../Images/Image1.jpg" alt="Image 1" />
       </div>
-      <div className="col-4">
+      <div className="col-4 d-flex align-items-center justify-content-center">
         <p className="text-black">Your text here</p>
       </div>
     </div>
