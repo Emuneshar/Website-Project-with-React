@@ -1,4 +1,23 @@
 .homepage-container {
     background-color: bisque;
-  }
+    padding: 20px;
+    
+}
+
+.small-grid{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
   
+.carousel{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.grid{
+    margin-top: 40px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
