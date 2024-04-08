@@ -13,7 +13,7 @@ function HomePage() {
         <div style={{ margin: "20px 0" }}>
           <Carousel></Carousel>
         </div>
-        <SmallGrid />
+
         <div style={{ margin: "20px 0" }}>
           <Grid>
             <Card
