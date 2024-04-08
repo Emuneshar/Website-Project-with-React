@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/NavBar.css";
 import { Tiktok } from "react-bootstrap-icons";
+import { Instagram } from "react-bootstrap-icons";
 
 const Navbar: React.FC = () => {
   const [isDropDownOpen, setIsDropDownOpen] = useState<boolean>(false);
@@ -75,6 +76,13 @@ const Navbar: React.FC = () => {
             <li className="nav-item">
               <a href="#" className="nav-link">
                 <Tiktok size={24} color="black" />
+              </a>
+            </li>
+          </ul>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a href="#" className="nav-link">
+                <Instagram size={24} color="black" />
               </a>
             </li>
           </ul>
