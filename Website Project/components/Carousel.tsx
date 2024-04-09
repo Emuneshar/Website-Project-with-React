@@ -29,7 +29,7 @@ const Carousel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="../Images/image1.jpg"
+            src="../Images/yourimagehere.jpg"
             className="d-block w-50 d-block mx-auto"
             alt="..."
             style={{ width: "400px", height: "300px", objectFit: "cover" }}
@@ -41,7 +41,7 @@ const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="../Images/image2.jpg"
+            src="../Images/yourimagehere.jpg"
             className="d-block w-50 d-block mx-auto"
             alt="..."
             style={{ width: "400px", height: "300px", objectFit: "cover" }}
@@ -53,7 +53,7 @@ const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="../Images/image3.jpg"
+            src="../Images/yourimagehere.jpg"
             className="d-block w-50 d-block mx-auto"
             alt="..."
             style={{ width: "400px", height: "300px", objectFit: "cover" }}
