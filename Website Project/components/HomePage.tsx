@@ -18,21 +18,21 @@ function HomePage() {
           <Grid>
             <Card
               title="Package 1"
-              src="../Images/image1.jpg"
+              src="../Images/yourimagehere.jpg"
               content="Package 1 info"
               buttonText="Click Me"
               onButtonClick={() => console.log("Button Clicked!")}
             />
             <Card
               title="Package 2"
-              src="../Images/image2.jpg"
+              src="../Images/yourimagehere.jpg"
               content="Package 2 info"
               buttonText="Click Me"
               onButtonClick={() => console.log("Button Clicked!")}
             />
             <Card
               title="Package 3"
-              src="../Images/image3.jpg"
+              src="../Images/yourimagehere.jpg"
               content="Package 3 info"
               buttonText="Click Me"
               onButtonClick={() => console.log("Button Clicked!")}
