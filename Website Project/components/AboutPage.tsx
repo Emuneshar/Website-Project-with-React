@@ -5,7 +5,7 @@ import "../css/AboutPage.css";
 function AboutPage() {
   return (
     <>
-      <div>
+      <div className="card mb-3">
         <HorizontalCard></HorizontalCard>
       </div>
     </>
