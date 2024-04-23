@@ -5,7 +5,9 @@ import "../css/AboutPage.css";
 function AboutPage() {
   return (
     <>
-      <HorizontalCard></HorizontalCard>
+      <div>
+        <HorizontalCard></HorizontalCard>
+      </div>
     </>
   );
 }
