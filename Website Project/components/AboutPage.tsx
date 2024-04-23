@@ -7,3 +7,4 @@ function AboutPage() {
     <HorizontalCard></HorizontalCard>
   </>;
 }
+export default AboutPage;
