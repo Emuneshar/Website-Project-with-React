@@ -20,4 +20,4 @@ function HorizontalCard(){
     );
 }
 
-export defualt HorizontalCard;
+export default HorizontalCard;
