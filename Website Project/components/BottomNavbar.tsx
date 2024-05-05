@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../css/BottomNavBar.css";
 const FixedBottomNavbar: React.FC = () => {
   return (
     <nav className="navbar bg-body-tertiary bottom">
