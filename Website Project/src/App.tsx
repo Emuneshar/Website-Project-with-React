@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 import HomePage from "../components/HomePage";
 import AboutPage from "../components/AboutPage";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import FixedBottomNavBar from "../components/FixedBottomNavbar";
+import FixedBottomNavBar from "../components/BottomNavbar";
 import "../css/App.css";
 
 function App() {
