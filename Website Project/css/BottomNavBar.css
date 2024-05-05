@@ -1,3 +1,5 @@
-.navbar .bg-body-tertiary{
-    background-color: blue;
-}
+.navbar.bg-body-tertiary {
+    background-color: #ffcc00; 
+    color: #ffffff; 
+  }
+  
