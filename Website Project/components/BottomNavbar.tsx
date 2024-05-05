@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/BottomNavBar.css";
 
-const FixedBottomNavbar: React.FC = () => {
+const BottomNavbar: React.FC = () => {
   return (
     <nav className="navbar bg-body-tertiary">
       <div className="container-fluid">
@@ -13,4 +13,4 @@ const FixedBottomNavbar: React.FC = () => {
   );
 };
 
-export default FixedBottomNavbar;
+export default BottomNavbar;

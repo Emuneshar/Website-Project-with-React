@@ -1,5 +1,7 @@
-.navbar.bg-body-tertiary {
-    background-color: #ffcc00; 
-    color: #ffffff; 
+/* Custom CSS for Bottom Navbar */
+.navbar.fixed-bottom.bg-body-tertiary {
+    background-color: #ffcc00; /* Change this color to your desired color */
+    /* You can also add other styles like text color, border, etc. */
+    color: #ffffff; /* Example text color */
   }
   
