@@ -7,7 +7,11 @@ const SmallGrid: React.FC = () => {
   return (
     <div className="row">
       <div className="col-6">
-        <img src="../Images/yourimagehere.jpg" alt="Image 1" />
+        <img
+          id="home-image"
+          src="../Extracted Images/image-006.jpg"
+          alt="Image 1"
+        />
       </div>
       <div
         className="col-4 d-flex align-items-center justify-content-center"
