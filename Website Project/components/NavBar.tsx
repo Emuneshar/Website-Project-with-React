@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
     >
       <div className="container">
         <Link className="navbar-brand" to="/">
-          Company Name
+          Baby Sono Views
         </Link>
         <button
           className="navbar-toggler"
