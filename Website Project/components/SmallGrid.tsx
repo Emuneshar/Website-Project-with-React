@@ -11,6 +11,7 @@ const SmallGrid: React.FC = () => {
           id="home-image"
           src="../Extracted Images/image-006.jpg"
           alt="Image 1"
+          style={{ maxWidth: "100%", height: "auto" }}
         />
       </div>
       <div
