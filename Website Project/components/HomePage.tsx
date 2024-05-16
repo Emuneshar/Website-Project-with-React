@@ -10,9 +10,6 @@ function HomePage() {
     <>
       <div className="homepage-container">
         <SmallGrid />
-        <div style={{ margin: "20px 0" }}>
-          <Carousel></Carousel>
-        </div>
 
         <div style={{ margin: "20px 0" }}>
           <Grid>
