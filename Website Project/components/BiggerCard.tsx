@@ -7,9 +7,7 @@ const BiggerCard: React.FC = () => {
         <h5 className="card-title">
           Proving a once in a lifetime experience for you and your baby
         </h5>
-        <h6 className="card-subtitle mb-2 text-body-secondary">
-          Card subtitle
-        </h6>
+        <h6 className="card-subtitle mb-2 text-body-secondary"></h6>
         <p className="card-text">
           Here at baby sono views we provide exceptional imaging services, for
           you and your family to enjoy. We offer a variety of packages such as
