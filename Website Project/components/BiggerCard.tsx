@@ -4,7 +4,9 @@ const BiggerCard: React.FC = () => {
   return (
     <div className="card bg-white border-0" style={{ width: "18rem;" }}>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">
+          Proving a once in a lifetime experience for you and your baby
+        </h5>
         <h6 className="card-subtitle mb-2 text-body-secondary">
           Card subtitle
         </h6>
