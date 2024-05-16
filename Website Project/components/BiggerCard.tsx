@@ -3,7 +3,7 @@ import "../css/BiggerCard.css";
 
 const BiggerCard: React.FC = () => {
   return (
-    <div className="Marshmallow" style={{}}>
+    <div className="Marshmallow">
       <div className="card bg-white border-0" style={{ width: "18rem;" }}>
         <div className="card-body">
           <h2 className="card-title">
