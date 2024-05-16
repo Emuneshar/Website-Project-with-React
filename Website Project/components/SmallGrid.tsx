@@ -9,7 +9,7 @@ const SmallGrid: React.FC = () => {
       <div className="col-6">
         <img
           id="home-image"
-          src="../Extracted Images/image-006.jpg"
+          src="../Extracted Images/LiveLoveScan.jpg"
           alt="Image 1"
           style={{ maxWidth: "100%", height: "auto" }}
         />
