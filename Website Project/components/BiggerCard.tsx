@@ -4,7 +4,7 @@ const BiggerCard: React.FC = () => {
   return (
     <div
       style={{
-        backgroundColor: "#4421c2",
+        backgroundColor: "#6f808bce",
         width: "150%",
         height: "300px",
         display: "flex",
