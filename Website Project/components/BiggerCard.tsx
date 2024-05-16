@@ -10,6 +10,7 @@ const BiggerCard: React.FC = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        borderRadius: "10px",
       }}
     >
       <div className="card bg-white border-0" style={{ width: "18rem;" }}>
