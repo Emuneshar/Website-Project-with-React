@@ -5,10 +5,7 @@ const BiggerCard: React.FC = () => {
   return (
     <div className="Marshmallow" style={{}}>
       <div className="card bg-white border-0" style={{ width: "18rem;" }}>
-        <div
-          className="card-body"
-          style={{ fontFamily: "'Dancing Script', cursive" }}
-        >
+        <div className="card-body">
           <h2 className="card-title">
             Proving a once in a lifetime experience for you and your baby
           </h2>
