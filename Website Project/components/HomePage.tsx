@@ -1,6 +1,5 @@
 import React from "react";
 import SmallGrid from "../components/SmallGrid";
-import Carousel from "../components/Carousel";
 import Grid from "../components/Grid";
 import Card from "../components/Card";
 import "../css/HomePage.css";
