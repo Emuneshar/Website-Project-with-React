@@ -5,8 +5,8 @@ const BiggerCard: React.FC = () => {
     <div
       style={{
         backgroundColor: "#6f808bce",
-        width: "150%",
-        height: "300px",
+        width: "125%",
+        height: "325px",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
