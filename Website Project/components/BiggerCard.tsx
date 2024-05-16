@@ -11,8 +11,9 @@ const BiggerCard: React.FC = () => {
           Card subtitle
         </h6>
         <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Here at baby sono views we provide exceptional imaging services, for
+          you and your family to enjoy. We offer a variety of packages such as
+          gender reveals, pregnancy viability and 2D,3D/4D imaging.
         </p>
       </div>
     </div>
