@@ -1,0 +1,9 @@
+.Marshmallow {
+    background-color: #6f808bce;
+    width: 125%;
+    height: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}

@@ -1,18 +1,9 @@
 import React from "react";
+import "../css/BiggerCard.css";
 
 const BiggerCard: React.FC = () => {
   return (
-    <div
-      style={{
-        backgroundColor: "#6f808bce",
-        width: "125%",
-        height: "325px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        borderRadius: "10px",
-      }}
-    >
+    <div className="Marshmallow" style={{}}>
       <div className="card bg-white border-0" style={{ width: "18rem;" }}>
         <div
           className="card-body"
