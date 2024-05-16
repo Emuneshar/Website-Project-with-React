@@ -14,10 +14,13 @@ const BiggerCard: React.FC = () => {
       }}
     >
       <div className="card bg-white border-0" style={{ width: "18rem;" }}>
-        <div className="card-body">
-          <h5 className="card-title">
+        <div
+          className="card-body"
+          style={{ fontFamily: "'Dancing Script', cursive" }}
+        >
+          <h2 className="card-title">
             Proving a once in a lifetime experience for you and your baby
-          </h5>
+          </h2>
           <h6 className="card-subtitle mb-2 text-body-secondary"></h6>
           <p className="card-text">
             Here at Baby Sono Views we provide exceptional imaging services, for
