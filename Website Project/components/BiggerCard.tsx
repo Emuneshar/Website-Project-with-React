@@ -2,7 +2,16 @@ import React from "react";
 
 const BiggerCard: React.FC = () => {
   return (
-    <div style={{ backgroundColor: "4421c2" }}>
+    <div
+      style={{
+        backgroundColor: "#4421c2",
+        width: "150%",
+        height: "300px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <div className="card bg-white border-0" style={{ width: "18rem;" }}>
         <div className="card-body">
           <h5 className="card-title">
