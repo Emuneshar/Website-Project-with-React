@@ -1,26 +1,21 @@
 .homepage-container {
-    background-color: white;
-    
-    
+  background-color: white;
 }
 
-
-
-
-.small-grid{
-    margin-bottom: 200px;
-    margin-top: 200px;
-}
-  
-.carousel{
-    margin-top: 200px;
-    margin-bottom: 200px;
+.small-grid {
+  margin-bottom: 200px;
+  margin-top: 200px;
 }
 
-.grid{
-    margin-top: 40px;
+.carousel {
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
-.card{
-    margin-bottom: 20px;
+.grid {
+  margin-top: 40px;
+}
+
+.card {
+  margin-bottom: 20px;
 }
