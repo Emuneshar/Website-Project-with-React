@@ -24,7 +24,12 @@ const Navbar: React.FC = () => {
     >
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <img src={logoImage} alt="Logo" className="navbar-logo" />
+          <img
+            src={logoImage}
+            alt="Logo"
+            className="navbar-logo"
+            style={{ maxHeight: "40px", maxWidth: "150px" }}
+          />
           Baby Sono Views
         </Link>
         <button
