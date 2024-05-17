@@ -15,7 +15,7 @@ const SmallGrid: React.FC = () => {
         />
       </div>
       <div
-        className="col-4 d-flex align-items-center justify-content-center"
+        className="col-4 d-flex align-items-center justify-content-center card-container"
         style={{ padding: "20px" }}
       >
         <p className="text-black">
