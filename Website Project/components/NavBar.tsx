@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
             <span className="navbar-text">Baby Sono Views</span>
           </div>
         </div>
-
+        <div></div>
         <button
           className="navbar-toggler"
           type="button"
