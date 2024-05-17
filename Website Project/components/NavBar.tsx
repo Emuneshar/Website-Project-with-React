@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../css/NavBar.css";
 import { Tiktok } from "react-bootstrap-icons";
 import { Instagram } from "react-bootstrap-icons";
-
+import logoImage from "../Extracted Images/LiveLoveScan.jpg";
 const Navbar: React.FC = () => {
   const [isDropDownOpen, setIsDropDownOpen] = useState<boolean>(false);
   const [isNavCollapsed, setIsNavCollapsed] = useState<boolean>(true);
@@ -24,6 +24,7 @@ const Navbar: React.FC = () => {
     >
       <div className="container">
         <Link className="navbar-brand" to="/">
+          <img src={logoImage} alt="Logo" className="navbar-logo" />
           Baby Sono Views
         </Link>
         <button
