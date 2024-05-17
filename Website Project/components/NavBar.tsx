@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
             src={logoImage}
             alt="Logo"
             className="navbar-logo"
-            style={{ maxHeight: "40px", maxWidth: "150px" }}
+            style={{ maxHeight: "90px", maxWidth: "auto" }}
           />
           Baby Sono Views
         </Link>
