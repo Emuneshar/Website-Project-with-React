@@ -23,15 +23,22 @@ const Navbar: React.FC = () => {
       }`}
     >
       <div className="container">
-        <Link className="navbar-brand" to="/">
-          <img
-            src={logoImage}
-            alt="Logo"
-            className="navbar-logo"
-            style={{ maxHeight: "90px", maxWidth: "auto" }}
-          />
-          Baby Sono Views
-        </Link>
+        <div className="row align-items-center">
+          <div className="col-auto">
+            <Link className="navbar-brand" to="/">
+              <img
+                src={logoImage}
+                alt="Logo"
+                className="navbar-logo"
+                style={{ maxHeight: "90px", maxWidth: "auto" }}
+              />
+            </Link>
+          </div>
+          <div className="col">
+            <span className="navbar-text">Baby Sono Views</span>
+          </div>
+        </div>
+
         <button
           className="navbar-toggler"
           type="button"
