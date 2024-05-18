@@ -35,9 +35,9 @@ const Navbar: React.FC = () => {
             </Link>
           </div>
           <div className="col">
-            <span className="navbar-text" id="SonoViews">
+            <Link className="navbar-text" id="SonoViews" to="/">
               Baby Sono Views
-            </span>
+            </Link>
           </div>
         </div>
 
