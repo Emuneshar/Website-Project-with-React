@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
                 src={logoImage}
                 alt="Logo"
                 className="navbar-logo"
-                style={{ maxHeight: "90px", maxWidth: "auto" }}
+                style={{ maxHeight: "110px", maxWidth: "auto" }}
               />
             </Link>
           </div>
