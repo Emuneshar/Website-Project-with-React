@@ -1,6 +1,7 @@
 import React from "react";
 import SmallGrid from "../components/SmallGrid";
 import Grid from "../components/Grid";
+import MidBar from "../components/MidBar";
 import Card from "../components/Card";
 import "../css/HomePage.css";
 
@@ -10,6 +11,7 @@ function HomePage() {
       <div className="homepage-background">
         <div className="homepage-container">
           <SmallGrid />
+          <MidBar />
 
           <div style={{ margin: "20px 0" }}>
             <Grid>
