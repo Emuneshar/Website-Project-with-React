@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+
 .navbar{
     height: 130px;
     border-bottom: 2px solid #ffffff;
@@ -16,3 +19,7 @@
     z-index: 1000;
 }
 
+#SonoViews{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
