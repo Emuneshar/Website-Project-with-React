@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/MidBar.css";
 
 const MidBar: React.FC = () => {
   return (
