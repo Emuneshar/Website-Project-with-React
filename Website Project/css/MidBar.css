@@ -1,8 +1,8 @@
-.navbar.bg-body-tertiary {
+.navbar.bg-body-tertiary.the-midBar {
     background-color: #6f808bce !important;
 }
 
-.navbar-text{
+.navbar-text.the-midBar{
     font-size: 3em;
     font-family: 'Dancing Script', cursive;
     color: white;

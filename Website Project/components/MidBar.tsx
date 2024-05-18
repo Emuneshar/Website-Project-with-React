@@ -3,7 +3,7 @@ import "../css/MidBar.css";
 
 const MidBar: React.FC = () => {
   return (
-    <nav className="navbar bg-body-tertiary">
+    <nav className="navbar bg-body-tertiary the-midBar">
       <div className="container-fluid">
         <span className="navbar-text">Live. Love. Scan.</span>
       </div>
