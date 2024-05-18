@@ -5,7 +5,7 @@ const MidBar: React.FC = () => {
   return (
     <nav className="navbar bg-body-tertiary" id="Thebar">
       <div className="container-fluid">
-        <span className="navbar-text">Live. Love. Scan.</span>
+        <span className="navbar-text white-text">Live. Love. Scan.</span>
       </div>
     </nav>
   );
