@@ -6,7 +6,7 @@ const BiggerCard: React.FC = () => {
     <div className="card bg-white border-0" style={{ width: "18rem;" }}>
       <div className="card-body">
         <h1 className="card-title">
-          Providing a once in a lifetime experience for you and your baby
+          Providing a once in a lifetime experience for you and your baby!
         </h1>
         <p className="card-text larger-text">
           Here at Baby Sono Views we provide exceptional imaging services, for

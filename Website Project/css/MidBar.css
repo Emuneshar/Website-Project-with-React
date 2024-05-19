@@ -1,11 +1,13 @@
-
-#Thebar{
-    background-color: #6f808bce !important;
-    font-size: 3em;
-    font-family: 'Dancing Script', cursive;
-    color: white;
+#Thebar {
+  background-color: #6f808bce !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Dancing Script", cursive;
+  color: white;
 }
 
-.white-text{
-    color:white;
+.white-text {
+  color: white;
 }
