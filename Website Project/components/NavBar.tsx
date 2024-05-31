@@ -96,7 +96,7 @@ const Navbar: React.FC = () => {
           </ul>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href="https://www.amazon.com/" className="nav-link">
+              <a href="https://www.instagram.com/" className="nav-link">
                 <Instagram size={24} color="black" />
               </a>
             </li>
