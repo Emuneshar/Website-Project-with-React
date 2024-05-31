@@ -89,14 +89,14 @@ const Navbar: React.FC = () => {
           </ul>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="https://www.tiktok.com/" className="nav-link">
                 <Tiktok size={24} color="black" />
               </a>
             </li>
           </ul>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="https://www.amazon.com/" className="nav-link">
                 <Instagram size={24} color="black" />
               </a>
             </li>
