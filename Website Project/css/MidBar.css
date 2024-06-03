@@ -11,3 +11,7 @@
 .white-text {
   color: white;
 }
+
+#Thebar .navbar-icon{
+  height: 40px;
+}
