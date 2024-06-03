@@ -1,11 +1,12 @@
 import React from "react";
 import GridCards from "../components/GridCards";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-function Packages() {
+const Packages: React.FC = () => {
   return (
     <>
-      <GridCards></GridCards>
+      <GridCards />
     </>
   );
-}
+};
+
+export default Packages;
