@@ -1,5 +1,5 @@
 import React from "react";
-import GridCards from "./GridCards";
+import GridCards from "../components/GridCards";
 
 function Packages() {
   return (
