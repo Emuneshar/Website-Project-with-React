@@ -12,7 +12,7 @@ const GridCards: React.FC = () => {
               alt="Sample Image"
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Package 1</h5>
               <p className="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
@@ -29,7 +29,7 @@ const GridCards: React.FC = () => {
               alt="Sample Image"
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Package 2</h5>
               <p className="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
@@ -46,7 +46,7 @@ const GridCards: React.FC = () => {
               alt="Sample Image"
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Package 3</h5>
               <p className="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content.
@@ -62,7 +62,7 @@ const GridCards: React.FC = () => {
               alt="Sample Image"
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Package 4</h5>
               <p className="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
