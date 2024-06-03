@@ -70,14 +70,14 @@ const Navbar: React.FC = () => {
                 Services
               </span>
               <div className={`dropdown-menu ${isDropDownOpen ? "show" : ""}`}>
-                <Link className="dropdown-item" to="/services/design">
-                  Design
+                <Link className="dropdown-item" to="/services/Packages">
+                  Packages
                 </Link>
-                <Link className="dropdown-item" to="/services/development">
-                  Development
+                <Link className="dropdown-item" to="/services/Shop">
+                  Shop
                 </Link>
-                <Link className="dropdown-item" to="/services/marketing">
-                  Marketing
+                <Link className="dropdown-item" to="/services/Tutoring">
+                  Tutoring
                 </Link>
               </div>
             </li>
