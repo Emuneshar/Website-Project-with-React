@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import "../css/NavBar.css";
-import { Tiktok } from "react-bootstrap-icons";
-import { Instagram } from "react-bootstrap-icons";
+import { Tiktok, Instagram } from "react-bootstrap-icons";
 import logoImage from "../Extracted Images/LiveLoveScan.jpg";
+
 const Navbar: React.FC = () => {
   const [isDropDownOpen, setIsDropDownOpen] = useState<boolean>(false);
   const [isNavCollapsed, setIsNavCollapsed] = useState<boolean>(true);
+  const dropdownRef = useRef<HTMLLIElement>(null);
 
   const toggleDropdown = () => {
     setIsDropDownOpen(!isDropDownOpen);
@@ -16,6 +17,22 @@ const Navbar: React.FC = () => {
     setIsNavCollapsed(!isNavCollapsed);
   };
 
+  const handleClickOutside = (event: MouseEvent) => {
+    if (
+      dropdownRef.current &&
+      !dropdownRef.current.contains(event.target as Node)
+    ) {
+      setIsDropDownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <nav
       className={`navbar navbar-expand-lg navbar-light bg-white border-bottom-gray ${
@@ -23,7 +40,7 @@ const Navbar: React.FC = () => {
       }`}
     >
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-center w-100">
           <div className="col-auto">
             <Link className="navbar-brand" to="/">
               <img
@@ -34,22 +51,25 @@ const Navbar: React.FC = () => {
               />
             </Link>
           </div>
-          <div className="col">
+          <div className="col text-center">
             <Link className="navbar-text" id="SonoViews" to="/">
               Baby Sono Views
             </Link>
           </div>
+          <button
+            className="navbar-toggler"
+            type="button"
+            aria-controls="navbarNav"
+            aria-expanded={!isNavCollapsed}
+            aria-label="Toggle navigation"
+            onClick={handleNavCollapse}
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
         </div>
-
-        <button
-          className="navbar-toggler"
-          type="button"
-          onClick={() => handleNavCollapse()}
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
         <div
           className={`collapse navbar-collapse ${isNavCollapsed ? "" : "show"}`}
+          id="navbarNav"
         >
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
@@ -62,7 +82,10 @@ const Navbar: React.FC = () => {
                 About
               </Link>
             </li>
-            <li className={`nav-item dropdown ${isDropDownOpen ? "show" : ""}`}>
+            <li
+              className={`nav-item dropdown ${isDropDownOpen ? "show" : ""}`}
+              ref={dropdownRef}
+            >
               <span
                 className="nav-link dropdown-toggle"
                 onClick={toggleDropdown}
@@ -86,15 +109,11 @@ const Navbar: React.FC = () => {
                 Contact
               </Link>
             </li>
-          </ul>
-          <ul className="navbar-nav">
             <li className="nav-item">
               <a href="https://www.tiktok.com/" className="nav-link">
                 <Tiktok size={24} color="black" />
               </a>
             </li>
-          </ul>
-          <ul className="navbar-nav">
             <li className="nav-item">
               <a href="https://www.instagram.com/" className="nav-link">
                 <Instagram size={24} color="black" />
